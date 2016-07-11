@@ -24,6 +24,7 @@ $ npm install
 
  3. キー
    - index.js
+
       ```
   var data = {
     key: "bd000000000000000000",
@@ -31,6 +32,7 @@ $ npm install
   };
 ```
    - lambda.js
+
       ```
   var ChannelID = 1400000000;
   var ChannelSecret = "de000000000000000000000000000000";
