@@ -2,11 +2,13 @@
 
 ![ice-cube](https://cloud.githubusercontent.com/assets/1234874/16717116/4757542a-474a-11e6-9934-d8d4df65e665.jpg)
 
- 1. ユーザーローカル人工知能ボットAPIへの登録
+## 構築
+
+ 1. ユーザーローカル人工知能ボットAPI 登録
 
   http://ai.userlocal.jp/
 
- 2. LINE デベロッパー登録
+ 2. LINE デベロッパー 登録
 
   https://developers.line.me/
 
@@ -29,8 +31,8 @@ $ cd MCButtle8
 $ npm install
 ```
 
- 5. キー
-   - index.js
+ 5. キー 設定
+   - index.js : ユーザローカルAPI
 
   ```
   var data = {
@@ -38,7 +40,7 @@ $ npm install
     ...
   };
   ```
-   - lambda.js
+   - lambda.js : LINE
 
   ```
   var ChannelID = 1400000000;
@@ -46,6 +48,14 @@ $ npm install
   var MID = "u00000000000000000000000000000000";
   ```
 
+ 6. 起動
+
+   ```
+   $ node index.js
+   ```
+   
+ ## 注意
+  - LINE は https 限定
 
 
 
