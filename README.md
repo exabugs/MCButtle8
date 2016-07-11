@@ -54,6 +54,9 @@ $ npm install
    $ node index.js
    ```
    
+## 実行
+![img_2758](https://cloud.githubusercontent.com/assets/1234874/16717310/c53d5480-474e-11e6-8e20-a968e12b0a87.PNG)
+
 ## 注意
   - LINE は https 限定
 
