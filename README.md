@@ -2,8 +2,15 @@
 
 ![ice-cube](https://cloud.githubusercontent.com/assets/1234874/16717116/4757542a-474a-11e6-9934-d8d4df65e665.jpg)
 
+ 1. ユーザーローカル人工知能ボットAPIへの登録
 
- 1. rhymer gem インストール
+  http://ai.userlocal.jp/
+
+ 2. LINE デベロッパー登録
+
+  https://developers.line.me/
+
+ 3. rhymer gem インストール
 
    ```
 $ cd
@@ -13,7 +20,7 @@ $ gem build rhymer.gemspec
 $ gem install rhymer-x.x.x.gem
 ```
 
- 2. MCButtle8 インストール
+ 4. MCButtle8 インストール
 
    ```
 $ cd
@@ -22,7 +29,7 @@ $ cd MCButtle8
 $ npm install
 ```
 
- 3. キー
+ 5. キー
    - index.js
 
   ```
@@ -39,9 +46,7 @@ $ npm install
   var MID = "u00000000000000000000000000000000";
   ```
 
- 4. LINE デベロッパー登録
 
-  https://developers.line.me/
 
 
 
