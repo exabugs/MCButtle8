@@ -4,8 +4,8 @@
 
 
  1. rhymer gem インストール
- 
-```
+
+   ```
 $ cd
 $ git clone https://github.com/suzuki86/rhymer.git
 $ cd rhymer
@@ -14,7 +14,8 @@ $ gem install rhymer-x.x.x.gem
 ```
 
  2. MCButtle8 インストール
-```
+
+   ```
 $ cd
 $ git clone https://github.com/exabugs/MCButtle8.git
 $ cd MCButtle8
@@ -22,15 +23,15 @@ $ npm install
 ```
 
  3. キー
- - index.js
-```
+   - index.js
+      ```
   var data = {
     key: "bd000000000000000000",
     ...
   };
 ```
- - lambda.js
-```
+   - lambda.js
+      ```
   var ChannelID = 1400000000;
   var ChannelSecret = "de000000000000000000000000000000";
   var MID = "u00000000000000000000000000000000";
@@ -38,7 +39,7 @@ $ npm install
 
  4. LINE デベロッパー登録
 
-https://developers.line.me/
+  https://developers.line.me/
 
 
 
